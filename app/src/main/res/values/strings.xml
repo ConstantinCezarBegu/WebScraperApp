@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WebScraperApp</string>
+    <string name="action_delete">Delete Item</string>
+    <string name="action_save">Save Item</string>
+    <string name="action_download">Download Item</string>
+    <string name="action_share">Share Item</string>
+    <string name="action_search">Search for Item</string>
+    <string name="action_go_to_online">Go back to search</string>
+    <string name="action_go_to_save">Go to save</string>
+    <string name="action_go_to_google_web_search">Go to google web search</string>
+    <string name="action_go_to_google_image_search">Go to google image search</string>
+    <string name="no_content">Nothing to show here</string>
+    <string name="enter_search">Enter Search</string>
+    <string name="google_image">Google Image</string>
+    <string name="google_image_downloaded">Google Image Downloaded</string>
+</resources>

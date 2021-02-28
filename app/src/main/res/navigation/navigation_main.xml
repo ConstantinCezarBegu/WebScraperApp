@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/googleWebListOnlineFragment">
+    <fragment
+        android:id="@+id/googleImageOnlineListFragment"
+        android:name="com.constantin.webscraperapp.ui.fragments.googleimagelist.GoogleImageListOnlineFragment"
+        android:label="GoogleImageOnlineListFragment">
+        <action
+            android:id="@+id/action_googleImageListFragment_to_googleImageFragment"
+            app:destination="@id/googleImageFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+        <action
+            android:id="@+id/action_googleImageListFragment_to_googleImageListSavedFragment"
+            app:destination="@id/googleImageListSavedFragment"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_googleImageOnlineListFragment_self"
+            app:destination="@id/googleImageOnlineListFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/googleImageOnlineListFragment" />
+        <argument
+            android:name="searchKey"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_googleImageOnlineListFragment_to_googleWebListOnlineFragment"
+            app:destination="@id/googleWebListOnlineFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/navigation_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/googleImageFragment"
+        android:name="com.constantin.webscraperapp.ui.fragments.GoogleImageFragment"
+        android:label="GoogleImageFragment">
+        <argument
+            android:name="imageUrl"
+            app:argType="string" />
+        <argument
+            android:name="imageState"
+            app:argType="com.constantin.webscraperapp.util.GoogleImageDisplayState" />
+    </fragment>
+    <fragment
+        android:id="@+id/googleImageListSavedFragment"
+        android:name="com.constantin.webscraperapp.ui.fragments.googleimagelist.GoogleImageListSavedFragment"
+        android:label="GoogleImageListSavedFragment" >
+        <action
+            android:id="@+id/action_googleImageListSavedFragment_to_googleImageFragment"
+            app:destination="@id/googleImageFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/googleWebListOnlineFragment"
+        android:name="com.constantin.webscraperapp.ui.fragments.googleweblist.GoogleWebListOnlineFragment"
+        android:label="GoogleWebListOnlineFragment" >
+        <action
+            android:id="@+id/action_googleWebListOnlineFragment_self"
+            app:destination="@id/googleWebListOnlineFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/navigation_main" />
+        <argument
+            android:name="searchKey"
+            app:argType="string"
+            android:defaultValue="Kotlin" />
+        <action
+            android:id="@+id/action_googleWebListOnlineFragment_to_googleImageOnlineListFragment"
+            app:destination="@id/googleImageOnlineListFragment" />
+    </fragment>
+</navigation>

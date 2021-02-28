@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_arrow_back.xml" value="0.2263888888888889" />
+        <entry key="app/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.2212962962962963" />
+        <entry key="app/src/main/res/drawable/ic_save.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/drawable/ic_share.xml" value="0.475" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.47175925925925927" />
+        <entry key="app/src/main/res/layout/fragment_google_image.xml" value="0.23012646793134597" />
+        <entry key="app/src/main/res/layout/fragment_image.xml" value="0.21203703703703702" />
+        <entry key="app/src/main/res/layout/fragment_search_google_image.xml" value="0.23052536231884058" />
+        <entry key="app/src/main/res/layout/fragment_search_google_image_online.xml" value="0.23012646793134597" />
+        <entry key="app/src/main/res/layout/fragment_search_google_image_saved.xml" value="0.28194444444444444" />
+        <entry key="app/src/main/res/layout/fragment_search_google_web_online.xml" value="0.28194444444444444" />
+        <entry key="app/src/main/res/layout/fragment_search_image.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/list_google_image.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/list_item_google_image.xml" value="0.75" />
+        <entry key="app/src/main/res/layout/list_item_google_web.xml" value="0.67" />
+        <entry key="app/src/main/res/menu/menu_google_image.xml" value="0.47175925925925927" />
+        <entry key="app/src/main/res/menu/menu_google_image_saved.xml" value="0.47175925925925927" />
+        <entry key="app/src/main/res/menu/menu_google_image_search.xml" value="0.42685185185185187" />
+        <entry key="app/src/main/res/menu/menu_google_web_search.xml" value="0.28194444444444444" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2601851851851852" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

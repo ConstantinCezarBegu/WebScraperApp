@@ -1,0 +1,17 @@
+CREATE TABLE  googleImage(
+    url TEXT NOT NULL UNIQUE PRIMARY KEY COLLATE NOCASE
+);
+
+count:
+SELECT count(*) FROM googleImage;
+
+selectAll:
+SELECT *
+FROM googleImage
+LIMIT :limit OFFSET :offset;
+
+insert:
+INSERT OR IGNORE INTO googleImage(url) VALUES ?;
+
+delete:
+DELETE FROM googleImage WHERE url = ?;
